@@ -38,9 +38,9 @@ function App() {
     <div className="app">
       <h1>Programming Jokes</h1>
       {/* Step 4: Pass the necessary props to JokeDisplay */}
-      <JokeDisplay />
+      <JokeDisplay joke={joke} loading={loading} />
       {/* Step 5: Pass the function to FetchButton so it can fetch a new joke on click */}
-      <FetchButton />
+      <FetchButton fetchJoke={fetchNewJokes} />
     </div>
   )
 }
