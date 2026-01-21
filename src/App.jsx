@@ -12,6 +12,7 @@ function App() {
       const response = await fetch("https://v2.jokeapi.dev/joke/Programming?type=single")
       const data = await response.json();
       setJoke(data.joke);
+      setLoading(false);
     }
     fetchJoke();
   }, []);
