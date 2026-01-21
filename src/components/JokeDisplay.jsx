@@ -5,7 +5,7 @@ const JokeDisplay = ({ joke, loading }) => {
     <div className="joke-container">
       {/* Step 2: If `loading` is true, display "Loading..." */}
       {/* Step 3: Otherwise, display the joke */}
-    </div>
+      {loading ? <p>Loading...</p> : <p>{joke}</p>}    </div>
   )
 }
 
