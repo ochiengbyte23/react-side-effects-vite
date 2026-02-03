@@ -1,6 +1,7 @@
 # React Side Effects Lab
 
 ## Overview
+
 This lab demonstrates how to handle **side effects** in React using the `useEffect` hook. The app fetches and displays a random **programming joke** when the page loads and allows users to fetch a new joke with a button click.
 
 ## Setup
